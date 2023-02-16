@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="title" content="Burn">
+     <meta name="description" content="Burn's place-holder.">
+     <meta name="keywords" content="Burn">
+     <meta name="robots" content="noindex, nofollow">
+     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+     <meta name="language" content="English">
+     <meta name="author" content="Burn">
+
+<!-- Primary Meta Tags -->
+<title>Burn's place-holder web.</title>
+<meta name="title" content="Burn's place-holder web.">
+<meta name="description" content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris dictum hendrerit tellus, id sollicitudin dui. Suspendisse laoreet odio sapien, sed.">
+
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="website">
+<meta property="og:url" content="http://burn-me.ga/">
+<meta property="og:title" content="Burn's place-holder web.">
+<meta property="og:description" content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris dictum hendrerit tellus, id sollicitudin dui. Suspendisse laoreet odio sapien, sed.">
+<meta property="og:image" content="/Pic/burn_soul-fire-heaven_mid-journey.png">
+
+<!-- Twitter -->
+<meta property="twitter:card" content="summary_large_image">
+<meta property="twitter:url" content="http://burn-me.ga/">
+<meta property="twitter:title" content="Burn's place-holder web.">
+<meta property="twitter:description" content="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris dictum hendrerit tellus, id sollicitudin dui. Suspendisse laoreet odio sapien, sed.">
+<meta property="twitter:image" content="/Pic/burn_soul-fire-heaven_mid-journey.png">
+    <title>Burn</title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/Pic/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/Pic/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/Pic/favicon-16x16.png">
+<link rel="manifest" href="/Pic/site.webmanifest">
+<link rel="mask-icon" href="/Pic/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="theme-color" content="#ffffff">
+<link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div id="preloader">
+      </div>
+<!-- header section starts  -->
+<header>
+    <div class="user">
+        <img src="/Pic/200w.gif" alt="">
+        <h3 class="name">Burnee</h3>
+        <p class="post">Still Learning</p>
+    </div>
+    <nav class="navbar">
+        <ul>
+            <li><a href="#home">home</a></li>
+            <li><a href="#about">about</a></li>
+            <li><a href="#education">education</a></li>
+        </ul>
+    </nav>
+</header>
+<!-- header section ends -->
+
+<div id="menu" class="fas fa-bars"></div>
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+    
+    <h3>HI THERE !</h3>
+    <h1>I'M <span>Burnee</span></h1>
+    <p>Your IP address is: </p> <a href="/microsoft.windows.camera://-"><p id="userip" style="color:rgb(59, 59, 223);"></p></a>
+    <a href="#about"><button class="btn">about me <i class="fas fa-user"></i></button></a>
+
+</section>
+
+<!-- home section ends -->
+
+<!-- about section starts  -->
+
+<section class="about" id="about">
+
+<h1 class="heading"> <span>about</span> me </h1>
+
+<div class="row">
+
+    <div class="info">
+        <h3> <span> name : </span> Burn </h3>
+        <h3> <span> age : </span> 18 </h3>
+        <h3> <span> qualification : </span> BMS </h3>
+        <h3> <span> post : </span> Student </h3>
+    </div>
+
+    <div class="counter">
+
+        <div class="box">
+            <span>0</span>
+            <h3>years of experience</h3>
+        </div>
+
+        <div class="box">
+            <span>0</span>
+            <h3>porject completed</h3>
+        </div>
+        <div class="box">
+            <span>9999</span>
+            <h3>awards won</h3>
+        </div>
+
+    </div>
+
+</div>
+
+</section>
+
+<!-- about section ends -->
+
+<!-- education section starts  -->
+
+<section class="education" id="education">
+
+<h1 class="heading"> my <span>education</span> </h1>
+</div>
+
+</section>
+
+<!-- education section ends -->
+<!-- scroll top button  -->
+
+<a href="#home" class="top">
+    <img src="Pic/icons8-scroll-up-50.png" alt="png">
+</a>
+<!-- jquery cdn link  -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+<!-- custom js file link  -->
+<script src="javascript.js"></script>
+<script src="canva.js"></script>
+
+<script>
+    // Once the page has loaded, remove the preloader
+    window.addEventListener('load', function() {
+        var preloader = document.getElementById('preloader');
+        preloader.classList.add('hide');
+        
+        setTimeout(function() {
+            preloader.style.opacity = '0';
+            preloader.style.transition = 'opacity 0.5s ease-in-out';
+
+        setTimeout(function() {
+          preloader.style.display = 'none';
+        }, 500); // Change this value to adjust the delay before the preloader is hidden
+      },2000);
+// Set a delay of 3 seconds (3000 milliseconds) before hiding the preloader
+    });
+  </script>
+  <script>
+    /* Add "https://api.ipify.org?format=json" This method uses ipify.org api to get the clients IP Address. 
+		This method is completely free and no limitations of use. */ 
+
+		$.getJSON("https://api.ipify.org?format=json", 
+        function(data) { 
+
+// userip element is where the IP will be displayed
+$("#userip").html(data.ip); 
+}) 
+  </script>
+</body>
+</html>

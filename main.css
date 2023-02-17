@@ -21,12 +21,10 @@
 html{
      scroll-behavior: smooth;
     font-size: 62.5%;
-    overflow: hidden;
 }
 body{
     background:#18191A;
     background-size: cover;
-    overflow: hidden;
     padding-left: 35rem;
 }
 
@@ -288,8 +286,23 @@ header .navbar ul li a:hover{
     z-index: 100;
     display: none;
 }
-
-
+#aboutme{
+        font-family: Arial, sans-serif;
+        font-size: 18px;
+        line-height: 1.5;
+        color: #fff;
+        text-align: justify;
+        margin: 0;
+        padding: 20px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+#aboutme:hover {
+    background-color: #FF6E3B;
+    border-color: #999;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+  }
 
 
 

@@ -40,7 +40,6 @@ $(document).ready(function(){
    function getIP(json) {
     var ipAddress = "Your IP address is " + json.ip;
     document.getElementById("ip-address-phone").innerHTML = ipAddress;
-    document.getElementById("ip-address-desktop").innerHTML = ipAddress;
   }
 
   var script = document.createElement("script");

@@ -38,10 +38,11 @@ $(document).ready(function(){
    
    });
    function getIP(json) {
-    document.getElementById("ip-address").innerHTML = "Your IP address is " + json.ip;
+    var ipAddress = "Your IP address is " + json.ip;
+    document.getElementById("ip-address-phone").innerHTML = ipAddress;
+    document.getElementById("ip-address-desktop").innerHTML = ipAddress;
   }
 
   var script = document.createElement("script");
   script.src = "https://api.ipify.org?format=jsonp&callback=getIP";
   document.body.appendChild(script);
-  

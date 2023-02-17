@@ -37,4 +37,11 @@ $(document).ready(function(){
      });
    
    });
+   function getIP(json) {
+    document.getElementById("ip-address").innerHTML = "Your IP address is " + json.ip;
+  }
+
+  var script = document.createElement("script");
+  script.src = "https://api.ipify.org?format=jsonp&callback=getIP";
+  document.body.appendChild(script);
   

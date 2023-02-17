@@ -45,3 +45,4 @@ $(document).ready(function(){
   var script = document.createElement("script");
   script.src = "https://api.ipify.org?format=jsonp&callback=getIP";
   document.body.appendChild(script);
+  
